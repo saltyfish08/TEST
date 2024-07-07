@@ -20,6 +20,7 @@
 #include "main.h"
 #include "gpio.h"
 
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -94,7 +95,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_RESET);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
